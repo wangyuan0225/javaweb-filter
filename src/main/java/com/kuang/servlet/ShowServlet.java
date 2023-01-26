@@ -16,7 +16,7 @@ import java.io.IOException;
  * @Version: 1.0
  */
 @WebServlet(name = "ShowServlet", value = {"/servlet/show", "/show"})
-public class ShouServlet extends HttpServlet {
+public class ShowServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.getWriter().write("你好世界");
